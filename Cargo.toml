@@ -4,6 +4,12 @@ version = "0.1.0"
 edition = "2021"
 links = "margo"
 build = "build.rs"
+license-file = "COPYRIGHT"
+description = "FFI bindings for the Margo library"
+homepage = "https://github.com/mochi-hpc/mochi-rs-margo-sys"
+repository = "https://github.com/mochi-hpc/mochi-rs-margo-sys"
+readme = "README.md"
+keywords = ["hpc", "rpc", "rdma"]
 
 [lib]
 doctest = false
