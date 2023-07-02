@@ -6,7 +6,7 @@ use std::path::PathBuf;
 fn main() {
     // find Margo using pkg_config
     let margo: pkg_config::Library = pkg_config::Config::new()
-        .atleast_version("0.11.0")
+        .atleast_version("0.12")
         .statik(false)
         .probe("margo")
         .expect("pkg-config could not find Margo");
